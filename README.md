@@ -30,7 +30,10 @@ Department View:
 
 ![image](https://user-images.githubusercontent.com/59517854/230959500-947a15eb-0609-4dcc-a697-024a1de41e05.png)
 
+![image](https://user-images.githubusercontent.com/59517854/231259950-b553a55f-5bf7-4540-a08b-f8d0f42cc6b5.png)
+
 ![imag2e](https://user-images.githubusercontent.com/59517854/230959139-74d3c3be-0472-4e24-8995-683b14b4443a.png)
+
 
 CIV View
 
