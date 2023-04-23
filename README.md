@@ -10,7 +10,7 @@ A simple chat command resource to make your **[ND Framework](https://github.com/
 
 /911  [Only LEO & SAFR/LSFD departments can see this command after being inputted.]
 
-/911  [Only SADOT/DOT can see this command after being inputted.]
+/311  [Only SADOT/DOT can see this command after being inputted.]
 
 /me [It says your character name and job in the chat]
 
