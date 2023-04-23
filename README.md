@@ -32,7 +32,7 @@ Navigate to your Server.cfg and add the following ensure that the main ND resour
 
 ## Examples
 
-Department View:
+**Department View:**
 
 ![image](https://user-images.githubusercontent.com/59517854/230959500-947a15eb-0609-4dcc-a697-024a1de41e05.png)
 
@@ -41,6 +41,6 @@ Department View:
 ![imag2e](https://user-images.githubusercontent.com/59517854/230959139-74d3c3be-0472-4e24-8995-683b14b4443a.png)
 
 
-CIV View
+**Civilian View:**
 
 ![image](https://user-images.githubusercontent.com/59517854/230959067-d670508c-5518-4dbd-92a0-13307829135a.png)
