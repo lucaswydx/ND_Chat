@@ -1,5 +1,6 @@
 config = {
     ["/me"] = true,
+    ["/do"] = true,
     ["/gme"] = true,
     ["/twt"] = true,
     ["/ooc"] = true,
@@ -19,6 +20,12 @@ config = {
             "BCSO",
             "SAHP",
             "LSFD"
+        }
+    },
+    ["/311"] = {
+        enabled = true,
+        callTo = {
+            "DOT", -- or SADOT
         }
     }
 }
