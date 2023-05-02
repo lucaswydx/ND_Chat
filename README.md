@@ -16,6 +16,8 @@ A simple chat command resource to make your **[NDFramework](https://github.com/N
 
 /darkweb [No Departments  (LEO & SAFR/LSFD can see this nor do the command]
 
+/radiochat [Only LEO & SAFR/LSFD departments can see this command. It is used for less important transmissions.]
+
 **Installation:**
 
 Unzip the Folder.
