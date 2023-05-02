@@ -36,6 +36,9 @@ Department View:
 
 ![imag2e](https://user-images.githubusercontent.com/59517854/230959139-74d3c3be-0472-4e24-8995-683b14b4443a.png)
 
+![image](https://user-images.githubusercontent.com/59517854/235745755-21ab214d-2f8d-4e38-91e9-84abb071c283.png)
+
+
 
 CIV View
 
