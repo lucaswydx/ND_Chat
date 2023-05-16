@@ -13,6 +13,12 @@ config = {
             "LSFD"
         }
     },
+    ["/radiochat"] = {
+        enabled = true,
+        canNotSee = {
+            "CIV"
+        }
+    },
     ["/911"] = {
         enabled = true,
         callTo = {
