@@ -29,7 +29,6 @@ if config["/radiochat"] then
     TriggerEvent("chat:addSuggestion", "/radiochat", "Send a Less important Radio Transmission", {{name="Transmission", help="Enter your transmission"}})
 end
 
-
 if config["/911"] then
     TriggerEvent("chat:addSuggestion", "/911", "Call 911 for your emergency.", {
         {
