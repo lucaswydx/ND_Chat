@@ -24,6 +24,29 @@ function hasDarkWebPermission(player, players, args)
     end
 end
 
+function hasRadioChatPermission(player, players, args)
+    for _, department in pairs(config["/radiochat"].canNotSee) do
+        if players[player].job == department then 
+            TriggerClientEvent("chat:addMessage", player, {
+                color = {255, 0, 0},
+                args = {"^*^5[System]", players[player].job .. " cannot access this command."}
+            })
+            return false
+        end
+    end
+    for serverPlayer, playerInfo in pairs(players) do
+        for _, department in pairs(config["/radiochat"].canNotSee) do
+            if players[player].job == department then
+                return false
+            end
+        end
+        TriggerClientEvent("chat:addMessage", serverPlayer, {
+            color = {0, 0, 0},
+            args = {"^*^#35af79[Radio] " .. players[player].firstName .. " " .. players[player].lastName .. " [" .. players[player].job .. "] (#" .. player .. ")", table.concat(args, " ")}
+        })
+    end
+end
+
 if config["/me"] then
     RegisterCommand("me", function(source, args, rawCommand, text)
         local player = source
@@ -104,6 +127,14 @@ if config["/darkweb"].enabled then
         if (length > 0) then
             hasDarkWebPermission(player, players, args)
         end
+    end, false)
+end
+
+if config["/radiochat"].enabled then
+    RegisterCommand("radiochat", function(source, args, rawCommand)
+        local player = source
+        local players = NDCore.Functions.GetPlayers()
+        hasRadioChatPermission(player, players, args)
     end, false)
 end
 
