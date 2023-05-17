@@ -1,5 +1,5 @@
 ## This has been edited to include sounds, for a "911 Dispather".
-### Please ensure interact-sounds before ND_Chat.
+### Please ensure [interact-sound](https://github.com/TheStoicBear/interact-sound) before ND_Chat.
 
 
 **ND_Chat - [NDFramework](https://github.com/ND-Framework) is required.**
