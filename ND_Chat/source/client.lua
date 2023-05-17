@@ -47,8 +47,8 @@ if config["/911"].enabled then
 
         for _, department in pairs(config["/911"].callTo) do
             if character.job == department then
-                local location = GetStreetNameFromHashKey(GetStreetNameAtCoord(coords.x, coords.y, coords.z))
                 TriggerEvent('InteractSound_CL:PlayOnOne', '911call', 0.3)
+                local location = GetStreetNameFromHashKey(GetStreetNameAtCoord(coords.x, coords.y, coords.z))
                 if GetResourceState("ModernHUD") == "started" then
                     exports["ModernHUD"]:AndyyyNotify({
                         title = '<font color="#ff0000">911 EMERGENCY</font>',
