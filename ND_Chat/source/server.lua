@@ -42,7 +42,7 @@ function hasRadioChatPermission(player, players, args)
         end
         TriggerClientEvent("chat:addMessage", serverPlayer, {
             color = {0, 0, 0},
-            args = {"^*^#35af79[Radio] " .. players[player].firstName .. " " .. players[player].lastName .. " [" .. players[player].job .. "] (#" .. player .. ")", table.concat(args, " ")}
+            args = {"^*^3[Radio] " .. players[player].firstName .. " " .. players[player].lastName .. " [" .. players[player].job .. "] (#" .. player .. ")", table.concat(args, " ")}
         })
     end
 end
