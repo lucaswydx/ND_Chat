@@ -1,3 +1,7 @@
+## This has been edited to include sounds, for a "911 Dispather".
+### Please ensure [interact-sound](https://github.com/TheStoicBear/interact-sound) before ND_Chat.
+
+
 **ND_Chat - [NDFramework](https://github.com/ND-Framework) is required.**
 
 A simple chat command resource to make your **[NDFramework](https://github.com/ND-Framework)** and roleplay scenario experiences 100% better. All credits go to Andyyy#7666 & N1K0#0001. And thanks to 𝐃𝐢𝐬𝐜𝐨𝐫𝐝Solutions#0001 for helping me update this resource.
